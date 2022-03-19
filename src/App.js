@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import Header from "./header/Header";
-import "./app.css";
+import "./index.css";
 import Navbar from "./nav/Navbar";
 import Portfolio from "./portfolio/Porfolio";
 import Skills from "./skills/Skills";
