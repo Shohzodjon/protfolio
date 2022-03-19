@@ -1,0 +1,54 @@
+.header__container h1 {
+  text-align: center;
+  margin: 1rem 0;
+}
+.header__container h1 {
+  font-size: 2.4rem;
+}
+.header__container h2 {
+  font-size: 1.9rem;
+  text-align: center;
+}
+.btn__group {
+  width: 50%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.btn__download {
+  background: var(--color-primary);
+
+  color: var(--color-white);
+  transition: var(--transition);
+}
+.btn__talk {
+  background: var(--color-primary);
+  color: var(--color-dark);
+  transition: var(--transition);
+}
+.btn__download:hover {
+  color: var(--color-dark);
+}
+.btn__talk:hover {
+  background: var(--color-white);
+}
+.header__picture {
+  width: 26rem;
+  margin: 2.5rem auto 2rem;
+  border-radius: var(--radius);
+  overflow: hidden;
+  height: 20rem;
+}
+.header__picture img {
+  width: 100%;
+  object-fit: cover;
+  transform: scale(1);
+  transition: transform 0.8s ease-out;
+  border-radius: var(--radius);
+  height: 100%;
+}
+.header__picture img:hover {
+  transform: scale(1.04);
+}

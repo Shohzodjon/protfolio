@@ -1,0 +1,79 @@
+.contact__container {
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+.contact__container h3 {
+  text-align: center;
+  margin: 1rem 0;
+}
+.contact__container h2 {
+  text-align: center;
+  margin: 0.4rem 0 1rem;
+}
+.form__container {
+  justify-content: center;
+  gap: 2rem;
+}
+.social--media {
+  width: 40%;
+}
+.email--adress {
+  padding: 1rem 1.3rem;
+  background: var(--color-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--radius);
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}
+.email--adress h3 {
+  font-size: 1.2rem;
+  margin: 0.3rem 0;
+}
+.email--adress p {
+  margin-bottom: 0.8rem;
+}
+.message--container {
+  width: 45%;
+}
+.message--container input,
+.message--container textarea {
+  display: block;
+  width: 100%;
+  margin: 0 0 1rem;
+  padding: 1rem;
+  border: 1px solid rgba(34, 34, 34, 0.356);
+  outline: none;
+  border-radius: 0.6rem;
+  font-size: 1rem;
+}
+
+.btn__message {
+  width: max-content;
+  padding: 0.6rem 1rem;
+  margin: 1rem 0;
+  background: none;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(34, 34, 34, 0.438);
+  transition: background 0.5s ease-out, color 0.5s ease-out;
+  font-weight: 600;
+}
+.btn__message:hover {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+  .form__container {
+    width: 100%;
+  }
+  .social--media {
+    width: 45%;
+  }
+  .message--container {
+    width: 45%;
+  }
+}

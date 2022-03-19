@@ -1,0 +1,38 @@
+.sertificate__container {
+  margin-top: 1.5rem;
+  padding: 1rem 1.5rem;
+}
+
+.sertificate__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2rem;
+}
+
+.sertificate__container h2 {
+  text-align: center;
+  margin: 1rem 0;
+}
+.achievements__picture {
+  width: 100%;
+  margin: 1rem auto;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.achievements__picture img {
+  width: 100%;
+  border-radius: 1rem;
+  border: 2px solid var(--color-primary);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.achievements__picture h3 {
+  text-align: center;
+  margin: 1.5rem 0;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 800px) {
+  .sertificate__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
