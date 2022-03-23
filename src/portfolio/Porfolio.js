@@ -5,6 +5,7 @@ import img2 from "../assets/chat--app.png";
 import img3 from "../assets/ice--cream.png";
 import img4 from "../assets/todo--app.png";
 import img5 from "../assets/response.png";
+import img6 from "../assets/travel-agent.png";
 
 // style
 import "./portfolio.css";
@@ -138,6 +139,29 @@ const Portfolio = ({ width }) => {
             </div>
             <div className="overlay"></div>
           </div>
+
+          <div className="grid__card">
+            <div className="card__img">
+              <img src={img6} alt="img" />
+            </div>
+            <div className="link__group">
+              <a
+                href="https://github.com/Shohzodjon/travel-agent"
+                target="_blank"
+                className="btn__github"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://travel007.netlify.app/"
+                target="_blank"
+                className="btn__netlify"
+              >
+                Netlify
+              </a>
+            </div>
+            <div className="overlay"></div>
+          </div>
         </div>
       ) : width === "800px" ? (
         <div
@@ -258,6 +282,29 @@ const Portfolio = ({ width }) => {
             </div>
             <div className="overlay"></div>
           </div>
+
+          <div className="grid__card">
+            <div className="card__img">
+              <img src={img6} alt="img" />
+            </div>
+            <div className="link__group">
+              <a
+                href="https://github.com/Shohzodjon/travel-agent"
+                target="_blank"
+                className="btn__github"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://travel007.netlify.app/"
+                target="_blank"
+                className="btn__netlify"
+              >
+                Netlify
+              </a>
+            </div>
+            <div className="overlay"></div>
+          </div>
         </div>
       ) : (
         <div className="porfoilo__gridbox">
@@ -367,6 +414,29 @@ const Portfolio = ({ width }) => {
               </a>
               <a
                 href="https://response-design.netlify.app"
+                target="_blank"
+                className="btn__netlify"
+              >
+                Netlify
+              </a>
+            </div>
+            <div className="overlay"></div>
+          </div>
+
+          <div className="grid__card">
+            <div className="card__img">
+              <img src={img6} alt="img" />
+            </div>
+            <div className="link__group">
+              <a
+                href="https://github.com/Shohzodjon/travel-agent"
+                target="_blank"
+                className="btn__github"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://travel007.netlify.app/"
                 target="_blank"
                 className="btn__netlify"
               >
