@@ -1,7 +1,7 @@
 import React from "react";
 import Typical from "react-typical";
 import myPicture from "../assets/photo_2022-03.jpg";
-import CV from "../assets/Xorozov_Shohzod.pdf";
+import CV from "../assets/Resume.pdf";
 // style
 import "./header.css";
 
