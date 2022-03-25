@@ -29,6 +29,12 @@ const Contact = ({ width }) => {
                 <h3>Phone</h3>
                 <p>+99893 336-94-04</p>
               </div>
+              <div className="email--adress">
+                <h3>GitHub link</h3>
+                <a href="https://github.com/Shohzodjon">
+                  https://github.com/Shohzodjon
+                </a>
+              </div>
             </div>
             <div className="message--container" style={{ width: "100%" }}>
               <input type="text" placeholder="Your name" />
@@ -63,6 +69,13 @@ const Contact = ({ width }) => {
                 <h3>Phone</h3>
                 <p>+99893 336-94-04</p>
               </div>
+
+              <div className="email--adress">
+                <h3>GitHub link</h3>
+                <a href="https://github.com/Shohzodjon">
+                  https://github.com/Shohzodjon
+                </a>
+              </div>
             </div>
             <div className="message--container" style={{ width: "100%" }}>
               <input type="text" placeholder="Your name" />
@@ -93,6 +106,13 @@ const Contact = ({ width }) => {
               <div className="email--adress">
                 <h3>Phone</h3>
                 <p>+99893 336-94-04</p>
+              </div>
+
+              <div className="email--adress">
+                <h3>GitHub link</h3>
+                <a href="https://github.com/Shohzodjon">
+                  https://github.com/Shohzodjon
+                </a>
               </div>
             </div>
             <div className="message--container">
